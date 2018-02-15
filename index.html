@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
@@ -6,15 +6,31 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>xyz site</title>
 	<link href="css/jquery.bxslider.css" rel="stylesheet" />
-	<link rel="stylesheet" type="text/css" href="style.css" />	
+	<link rel="stylesheet" type="text/css" href="style.css" />
 	<link href="css/font-awesome.min.css" rel="stylesheet"/>
 	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
   	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
   	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 </head>
 <body>
-
+<!--- Header -->
+	<header>
+        <div id="header-inner">
+        <a href="index.html" id="logo"></a>
+        <nav>
+            <a href="#" id="menu-icon"></a>
+            <ul>
+                <li><a href="index.html" class="current">Home</a></li>
+                <li><a href="#">About</a></li>
+                 <li><a href="#">Facility</a></li>
+                <li><a href="#">Pricing</a></li>
+                 <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
 <!--- Start Slider -->
+	<section class="jumbotron">
 		<script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
 
 		<!--- ADD IMAGE SLIDER HERE -->
@@ -25,7 +41,7 @@
 				captions: false,
 				auto:true,
 				pager:false,
-				
+
 			});
 			$('.slider2').bxSlider({
 				pager:false,
@@ -43,6 +59,7 @@
 				controls:false,
 			});
 		</script>
+	</section>
 <!--- End Slider -->
 
 </body>
