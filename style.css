@@ -6,3 +6,46 @@
 	border: 0;
 	padding: 0;
 }
+body {
+    background: #F0F0F0;
+    color: #555;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    line-height: 190%;
+    text-align: center;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 190%;
+    padding: 5% 0;
+}
+h4 {
+    font-size: 170%;
+    padding: 5% 0;
+}
+h5 {
+    font-size: 120%;
+    color: #959595;
+}
+img {
+    max-width: 100%;
+}
+header {
+    background: #405580;
+    height: 86px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    opacity: .9;
+    top: 0;
+}
+#header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#logo {
+    background: url('img/the-gym.png');
+    float: left;
+    width: 200px;
+    height: 60px;
+    margin: 20px;
+}
