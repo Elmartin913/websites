@@ -49,3 +49,50 @@ header {
     height: 60px;
     margin: 20px;
 }
+
+/* Nav */
+nav {
+    float: right;
+    padding: 35px 20px 0 0;
+}
+#menu-icon {
+    background: url('img/icon.png') center;
+    width: 40px;
+    height: 34px;
+    display: hidden;
+}
+ul {
+    list-style: none;
+}
+nav ul li {
+    font-family: sans-serif;
+    display: inline-block;
+    padding: 10px;
+    float: left;
+    font-size: 110%;
+}
+nav ul li a {
+    color: #F0F0F0;
+    text-decoration: none;
+    font-weight: 700;
+}
+a:hover {
+    text-decoration: underline;
+}
+.current {
+    text-decoration: underline;
+}
+
+/* Slider */
+.slide-wrap {
+    top: 0px;
+}
+.slider {
+    margin-top: 90px;
+}
+.bx-wraper {
+    top: 0;
+}
+.bx-controls {
+    display: none;
+}
