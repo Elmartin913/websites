@@ -166,6 +166,53 @@ aside {
 }
 /* Three Column Section */
 .one-third {
-
+    width: 33.33%;
+    float: left;
+    text-align: center;
 }
-
+#google {
+    background-color: #A2B1C1;
+}
+#marketing {
+    background-color: #BEB9AD;
+}
+#customers {
+    background-color: #AADCD2;
+}
+#smiley {
+    background-color: #AADCD2;
+    padding: 0 0 1%;
+    clear: both;
+}
+/* Footer */
+footer {
+    background-color: #6991AC;
+    width: 100%;
+}
+.social {
+    list-style-type: none;
+    text-align: center;
+}
+.social li {
+    display: inline;
+}
+.social i {
+    font-size: 460%;
+    margin: 1%;
+    padding: 5% 5% 5% 4%;
+    color: #C3D7DF;
+}
+.social i:hover {
+    color: #F5F5F5;
+}
+footer.second {
+    border-top: 2px solid #AADCD2;
+    background-color: #5444B59;
+    max-height: 55px;
+    text-align: center;
+    margin: 0;
+}
+footer.second p {
+    padding: 5px 0 9px 0;
+    text-align: center;
+}
