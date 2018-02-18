@@ -188,7 +188,8 @@ nav{
     overflow: hidden;
 }
 .projects img{
-    width: 100%;
+    width: auto;
+    height: 425px;
     display: block;
     transition: opacity 2s ease, transform 2s ease;
 }
@@ -249,15 +250,85 @@ nav{
     }   
 }
 
-/* filter */
+/* filler */
 .filler{
     min-height: 2;
-    background: url(img/pexels-photo-191238.jpeg) center/cover fixed no-repeat;
-    
+    background: url(img/logo.png) center/cover fixed no-repeat;
 }
 
+/* contact */
+.contact{
+    min-height: 80vh;
+    background: url(img/car-race-ferrari-racing-car-pirelli-50704.jpeg) center/cover fixed no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contact-card{
+    flex: 0 0 80%;
+    padding: 40px 0;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    flex: 0 0 60%;
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    margin: 10px 0;
+}
+form h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: #ad343e;
+}
+form input, 
+form textarea{
+    padding: 5px;
+    border: 3px solid #ad343e;
+}
+input::placeholder, 
+textarea::placeholder{
+    text-transform: uppercase;
+    color: #0d1317;
+}
+.form-btn{
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 40px;
+    padding: 5px;
+    background: #ad343e;
+    color: #f5f5f5;
+    transition: color 1s ease-in-out, background 1s ease-in-out;
+}
+.form-btn:hover{
+    color: #ad343e;
+    background: #f5f5f5;
+}
 
-
+/* footer */
+footer{
+    background: #0d1317;
+    padding: 60px 0;
+    text-align: center;
+}
+.footer-icons a{
+    display: inline-block;
+    font-size: 30px;
+    margin: 0 10px 20px 10px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    background: #f5f5f5;
+    color: #0d1317;
+}
+.footer p{
+    color: #f5f5f5;
+    font-size: 20px;
+}
 
 
 
