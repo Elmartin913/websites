@@ -212,9 +212,49 @@ nav{
     }
 }
 
+/* about */
+.about{
+    min-height: 100vh;
+    padding: 100px 0;
+    background: url(img/road.jpeg) center/cover fixed no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-card{
+    background: rgba(255,255,255,0.6);
+    text-align: center;
+    padding: 60px 40px;
+}
+.about-card h3{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.about-card .fa-car{
+    font-size: 60px;
+    color: #ad343e;
+    margin: 20px 0;
+}
+.about-card p{
+    line-height: 2;
+}
+@media screen and (min-width:776px){
+    .about-card{
+        max-width: 50%;
+        border-radius: 30px;
+    }
+    .about-card p{
+        max-width: 70%;
+        margin: 0 auto;
+    }   
+}
 
-
-
+/* filter */
+.filler{
+    min-height: 2;
+    background: url(img/pexels-photo-191238.jpeg) center/cover fixed no-repeat;
+    
+}
 
 
 
