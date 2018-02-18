@@ -120,11 +120,49 @@ nav{
     nav ul a:hover{
         background: transparent;
         padding-left: 20px;
-        
     }
 }
-
-
+/* service section */
+.services{
+    min-height: 80vh;
+    background: url(img/clock.jpeg) center/cover fixed no-repeat;
+    display: flex;
+    align-items: center;
+}
+.service{
+    color: #f5f5f5;
+    display: flex;
+    margin: 40px;
+    
+}
+.service-icon{
+    align-self: center;
+    font-size: 60px;
+    margin-right: 20px;
+    padding: 20px;
+    border: 3px solid #f5f5f5;
+    border-radius: 50%;
+}
+.service-text{
+    text-transform: uppercase;
+}
+.service-text p{
+    line-height: 2;
+    margin-top: 5px;
+}
+@media screen and (min-width:576px) {
+    .services-center {
+        width: 70%;
+    }
+}
+@media screen and (min-width:776px) {
+    .services-center{
+        width: 50%;
+    }
+    .service-text p{
+        width: 70%;
+    }
+}
 
 
 
