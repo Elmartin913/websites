@@ -15,6 +15,8 @@ body{
     flex-direction: column;
     min-height: 100vh;
 }
+
+/* nav */
 nav{
     flex: 0 0 auto;
 }
@@ -53,6 +55,7 @@ nav ul li a:hover{
     color: #f5f5f5;
     background: #2b98f0;
 }
+/* menu animation */
 #menu-btn{
     padding: 5px;
     border: 2px solid #2b98f0;
@@ -77,7 +80,44 @@ nav ul li a:hover{
 .turn .bar3{
     transform: rotate(45deg) translate(-7px, -8px);
 }
-
+@media screen and (min-width: 690px){
+    nav{
+        display: flex;
+        align-items: baseline;
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+    #menu-btn{
+        display: none;
+    }
+    nav ul{
+        flex: 1 1 auto;
+        display: flex!important;
+        flex-wrap: wrap;
+    }
+    nav ul li{
+        flex: 1 0 125px;
+    }
+    nav ul .icon{
+        flex: 0 0 20px;
+    }
+    nav ul li .link-icon{
+        color: #f5f5f5;
+        background: #395e7e;
+    }
+    nav ul li .link-icon:hover{
+        background: #008dff;
+    }
+    nav ul a{
+        text-align: center;
+    }
+    nav ul a:hover{
+        padding: 10px!important;
+    }
+    #nav-top{
+        padding: 10px;
+    }
+}
 
 
 
