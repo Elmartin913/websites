@@ -472,7 +472,62 @@ nav ul li a:hover{
     }
 } */
 
-
+/* numbers */
+#numbers{
+    padding: 40px;
+}
+.number{
+    margin: 20px 0;
+    text-align: center;
+    transition: transform 2s ease;
+}
+.number:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.number .fa{
+    font-size: 60px;
+    color: #2b98f0;
+}
+.number h2{
+    font-size: 40px;
+    margin: 10px 0;
+    font-weight: 900;
+}
+.number h5{
+    font-size: 23px;
+    color: #c9c9c9;
+}
+/* numbers responsive */
+@media screen and (min-width:576px){
+    .numbers-center{
+        min-width: 90vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .number{
+        flex: 0 0 calc(50% - 10px);
+    }
+}
+@media screen and (min-width:776px){
+    .number{
+        flex: 0 0 calc(25% - 10px);
+    }
+}
+/* grids 
+@media screen and (min-width:576px){
+    .numbers-center{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 10px
+    }
+}
+@media screen and (min-width:992px){
+    .numbers-center{
+        grid-template-columns: repeat(4, 1fr);
+    }
+} */
 
 
 
