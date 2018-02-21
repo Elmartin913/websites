@@ -34,6 +34,34 @@ body{
     font-size: 25px;
     cursor: pointer;
 }
+@media screen and (min-width:776px){
+    #nav{
+        border-top: 5px solid #ffc914;
+        display: flex;
+        background: #2e282a;
+    }
+    #nav ul{
+        display: flex!important;
+        /* */
+        flex: 1 0 auto;
+        justify-content: space-around;
+        align-self: center;
+        flex-wrap: wrap;
+        padding: 0 10px;
+    }
+    #nav ul li{
+        flex: 1 0 100px;
+    }
+    #nav ul li a{
+        border-radius: 5px;
+        text-align: center;
+    }
+    .nav-icons,
+    #toggle-btn{
+        display: none;
+        
+    }
+}
 
 
 
