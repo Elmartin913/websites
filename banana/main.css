@@ -285,7 +285,7 @@ header {
     }
 }
 
-/* grid */
+/* grid 
 
 @media screen and (min-width:576px) {
     .skills-center {
@@ -311,4 +311,64 @@ header {
     .skill p {
         width: 100%;
     }
+} */
+
+/* form */
+
+#form {
+    min-height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/banner.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-title {
+    text-align: center;
+    color: #f5f3f5;
+    margin: 0 0 40px 0;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#email {
+    border: none;
+    background: transparent;
+    border-bottom: 3px solid #f5f3f5;
+    font-size: 30px;
+    margin: 10px 20px;
+}
+
+#email::placeholder {
+    color: #f5f3f5;
+    text-transform: capitalize;
+    padding-left: 30px;
+}
+
+#submit {
+    display: inline-block;
+    background: transparent;
+    border: 3px solid #f5f3f5;
+    padding: 10px 30px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffc914;
+    margin: 10px 20px;
+    transition: color 2s ease, background 2s ease, border 2s ease;
+}
+
+#submit:hover {
+    color: #f5f3f5;
+    background: #ffc914;
+    border-color: #ffc914;
 }
