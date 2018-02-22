@@ -149,24 +149,69 @@ header {
 }
 
 /* icon */
-#icon-section{
+
+#icon-section {
     height: 70px;
     background: #2e282a;
     text-align: center;
-    clip-path:polygon(0 0, 100% 0, 100% 100%, 0 40%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 40%);
     padding: 20px 0 40px 0;
 }
-#icon-section a{
+
+#icon-section a {
     display: inline-block;
     padding: 5px 10px;
     margin: 0 5px;
     font-size: 30px;
     color: #ffc914;
     border-radius: 5px;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0, 0, 0, 0.8);
     transition: transform 2s ease, color 2s ease;
 }
-#icon-section a:hover{
+
+#icon-section a:hover {
     transform: translateY(-10px);
     color: #d9e5d6;
 }
+
+/* title */
+
+.title {
+    display: flex;
+    padding: 20px;
+}
+
+.title-icon {
+    font-size: 60px;
+    color: #ffc914;
+    margin-right: 10px;
+}
+
+.title-text {
+    padding-left: 10px;
+    border-left: 3px solid #b5c2b7;
+    text-transform: uppercase;
+}
+
+.title-heading {
+    color: #2e282a;
+}
+
+.title-subheading {
+    padding: 5px;
+    text-transform: capitalize;
+    color: #b5c2b7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
