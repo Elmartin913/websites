@@ -10,7 +10,7 @@ body {
 
 #nav ul {
     list-style-type: none;
-    /*display: none;*/
+    display: none;
 }
 
 #nav ul li:last-of-type {
@@ -104,7 +104,7 @@ header {
 
 #banner {
     flex: 1 0 auto;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(img/banner.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(img/banner-2.jpeg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -146,4 +146,27 @@ header {
 .banner-text a:hover {
     color: #2e282e;
     background: #ffc914;
+}
+
+/* icon */
+#icon-section{
+    height: 70px;
+    background: #2e282a;
+    text-align: center;
+    clip-path:polygon(0 0, 100% 0, 100% 100%, 0 40%);
+    padding: 20px 0 40px 0;
+}
+#icon-section a{
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    font-size: 30px;
+    color: #ffc914;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.8);
+    transition: transform 2s ease, color 2s ease;
+}
+#icon-section a:hover{
+    transform: translateY(-10px);
+    color: #d9e5d6;
 }
