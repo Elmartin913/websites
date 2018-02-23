@@ -2,7 +2,11 @@ $(document).ready(function () {
     $('#toggle-btn').click(function () {
         $('.nav-links').slideToggle(3000);
     })
-})
+    //accordion
+    $( "#accordion" ).accordion({
+        animate: 1000
+    });
+});
 
 $(window).scroll(function () {
     let scroll = $(window).scrollTop();
@@ -22,3 +26,4 @@ $('nav a').click(function (link) {
         scrollTop: $(target).ofset().top
     }, 'slow')
 })
+

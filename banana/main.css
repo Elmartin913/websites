@@ -449,9 +449,22 @@ form {
     margin: 40px 0;
 }
 .ui-accordion-header{
-    
+    padding: 20px!important;
+    text-align: center;
+    background: #ffc914!important;
+    color: #00a7e1!important;
+    text-transform: capitalize;
+    font-size: 20px!important;
+    margin: 5px 0!important;
+    border: 2px solid #00a7e1!important;
+    border-radius: 10px!important;
 }
 .ui-accordion .ui-accordion-content{
+    background: #b5c2b7;
+    padding: 20px!important;
+    line-height: 1.8;
+    color: #f5f3f5;
+    border-radius: 10px;
     
 }
 @media screen and (min-width:776px){
