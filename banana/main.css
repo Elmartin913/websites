@@ -375,38 +375,44 @@ form {
 
 /* work section */
 
-#work .title{
+#work .title {
     flex-direction: row-reverse;
     margin-top: -20px;
 }
-#work .title-icon .fa{
+
+#work .title-icon .fa {
     margin-right: 0;
     margin-left: 10px;
 }
-#work .title-text{
+
+#work .title-text {
     padding-left: 0;
     padding-right: 10px;
     border-right: 3px solid #b5c2b7;
     border-left: none;
 }
-.work-center{
+
+.work-center {
     padding: 40px 0;
     max-width: 90%;
     margin: 0 auto;
 }
-#work img{
+
+#work img {
     display: block;
     width: 100%;
     border-radius: 10px;
     border: 3px solid #ffc914;
 }
-.button-group{
+
+.button-group {
     padding: 0 0 40px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.button-group button{
+
+.button-group button {
     display: inline-block;
     padding: 10px 20px;
     font-size: 25px;
@@ -416,39 +422,48 @@ form {
     color: #f5f3f5;
     background: #00a7e1;
 }
-.picture-item{
+
+.picture-item {
     width: calc(50% - 20px);
     margin: 10px;
 }
-@media screen and (min-width:992px){
-    .picture-item{
+
+@media screen and (min-width:992px) {
+    .picture-item {
         width: calc(25% - 20px);
     }
 }
+
 /* about */
-#about{
+
+#about {
     min-height: 90vh;
     padding: 40px 0;
-    background: linear-gradient(rgba(255,201,20,0.3), rgba(255,201,20,0.3)),url(img/about.jpeg) center/cover fixed no-repeat;
-    clip-path: polygon(0 0 , 100% 5%, 100% 100%, 0 95%);
+    background: linear-gradient(rgba(255, 201, 20, 0.3), rgba(255, 201, 20, 0.3)), url(img/about.jpeg) center/cover fixed no-repeat;
+    clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 95%);
 }
-#about-center{
+
+#about-center {
     max-width: 90vw;
     margin: 0 auto;
 }
-#about-photo img{
+
+#about-photo img {
     width: 100%;
     border-radius: 20px;
     transition: transparent 2s ease;
 }
-#about-photo img:hover{
+
+#about-photo img:hover {
     transform: scale(0.8);
 }
+
 #about-photo,
-#about-text{
+#about-text {
     margin: 40px 0;
 }
-.ui-accordion-header{
+
+.ui-accordion-header {
     padding: 20px!important;
     text-align: center;
     background: #ffc914!important;
@@ -459,60 +474,69 @@ form {
     border: 2px solid #00a7e1!important;
     border-radius: 10px!important;
 }
-.ui-accordion .ui-accordion-content{
+
+.ui-accordion .ui-accordion-content {
     background: #b5c2b7;
     padding: 20px!important;
     line-height: 1.8;
     color: #f5f3f5;
     border-radius: 10px;
-    
+
 }
-@media screen and (min-width:776px){
-    #about-center{
+
+@media screen and (min-width:776px) {
+    #about-center {
         display: flex;
         justify-content: space-between;
         align-content: center;
     }
     #about-text,
-    #about-photo{
+    #about-photo {
         flex: 0 0 calc(50% - 1em);
     }
-    #about-text{
+    #about-text {
         align-self: center;
     }
 }
 
 /* current section */
-#current .title{
+
+#current .title {
     margin: 20px;
 }
-.current-item{
-    background: linear-gradient(rgb(255,201,20), rgb(255,201,20));
+
+.current-item {
+    background: linear-gradient(rgb(255, 201, 20), rgb(255, 201, 20));
 }
-.current-item img{
+
+.current-item img {
     display: block;
     width: 100%;
     opacity: 1;
     transition: opacity 2s ease;
 }
-.current-item img:hover{
+
+.current-item img:hover {
     opacity: 0.5;
 }
-@media screen and (min-width:576px){
-    #current-center{
+
+@media screen and (min-width:576px) {
+    #current-center {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
     }
-    .current-item{
+    .current-item {
         flex: 0 0 50%;
     }
 }
-@media screen and (min-width:992px){
-    .current-item{
+
+@media screen and (min-width:992px) {
+    .current-item {
         flex: 0 0 25%;
     }
 }
+
 /*grid
 @media screen and (min-width:576px){
     #current-center{
@@ -530,137 +554,3 @@ form {
         grid-template-columns: repeat(4, 1fr);
     }
 } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
