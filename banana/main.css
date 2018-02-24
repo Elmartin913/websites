@@ -482,8 +482,54 @@ form {
     }
 }
 
+/* current section */
+#current .title{
+    margin: 20px;
+}
+.current-item{
+    background: linear-gradient(rgb(255,201,20), rgb(255,201,20));
+}
+.current-item img{
+    display: block;
+    width: 100%;
+    opacity: 1;
+    transition: opacity 2s ease;
+}
+.current-item img:hover{
+    opacity: 0.5;
+}
+@media screen and (min-width:576px){
+    #current-center{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .current-item{
+        flex: 0 0 50%;
+    }
+}
+@media screen and (min-width:992px){
+    .current-item{
+        flex: 0 0 25%;
+    }
+}
+/*grid
+@media screen and (min-width:576px){
+    #current-center{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .current-item{
+        flex: 0 0 50%;
+    }
+}
 
-
+@media screen and (min-width:992px){
+    #current-center{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+} */
 
 
 
