@@ -103,13 +103,13 @@ header {
 }
 
 #banner {
-    flex: 1 0 auto;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(img/banner-2.jpeg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
+    flex: 1 0 auto;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -647,28 +647,33 @@ form {
     margin-top: -35px;
 }
 
-#team-center{
+#team-center {
     max-width: 90vw;
     margin: 0 auto;
     padding: 40px 0;
 }
-.team-member h2{
+
+.team-member h2 {
     text-transform: capitalize;
 }
-.team-member h5{
+
+.team-member h5 {
     margin: 10px 0;
     text-transform: uppercase;
 }
-.team-member hr{
+
+.team-member hr {
     width: 70%;
     margin: 0 auto;
     border: 1px solid #ffc914;
 }
-.team-member p{
+
+.team-member p {
     line-height: 2;
     margin: 10px;
 }
-.team-member-footer{
+
+.team-member-footer {
     padding: 20px 0;
     background: #2e282a;
     border-bottom-left-radius: 20px;
@@ -676,28 +681,30 @@ form {
     display: flex;
     justify-content: space-around;
 }
-.team-member-footer .fa{
+
+.team-member-footer .fa {
     font-size: 30px;
     color: #ffc914;
     transition: color 2s ease;
 }
 
-.team-member-footer .fa:hover{
+.team-member-footer .fa:hover {
     color: #00a7e1;
 }
 
-@media screen and (min-width:576px){
-    #team-center{
+@media screen and (min-width:576px) {
+    #team-center {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
     }
-    .team-member{
+    .team-member {
         flex: 0 0 calc(50% - 1em);
     }
 }
-@media screen and (min-width:992px){
-    .team-member{
+
+@media screen and (min-width:992px) {
+    .team-member {
         flex: 0 0 calc(25% - 1em);
     }
 }
@@ -716,19 +723,33 @@ form {
     }
 } */
 
+/* prograss bar */
 
+#progress-bars {
+    padding: 100px 0;
+    background: linear-gradient(rgba(255, 201, 20, 0.5), rgba(255, 201, 20, 0.3)), url(img/city-2.jpeg) center/cover no-repeat fixed;
+}
 
+.progress-item {
+    margin: 20px 0;
+}
 
+.progress-center {
+    max-width: 70%;
+    margin: 0 auto;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.progress-text {
+    display: flex;
+    justify-content: space-between;
+    color: #00a7e1;
+    text-transform: uppercase;
+}
+.ui-widget-content{
+    height: 20px!important;
+    background: #f5f3f5!important;
+    border: 3px solid #00a7e1!important;
+}
+.ui-widget-header{
+    background: #ffc914!important;
+}

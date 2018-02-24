@@ -3,8 +3,21 @@ $(document).ready(function () {
         $('.nav-links').slideToggle(3000);
     })
     //accordion
-    $( "#accordion" ).accordion({
+    $("#accordion").accordion({
         animate: 1000
+    });
+    //progress-barss
+    $("#p-bar-1").progressbar({
+        value: 37
+    });
+    $("#p-bar-2").progressbar({
+        value: 70
+    });
+    $("#p-bar-3").progressbar({
+        value: 60
+    });
+    $("#p-bar-4").progressbar({
+        value: 80
     });
 });
 
@@ -26,4 +39,3 @@ $('nav a').click(function (link) {
         scrollTop: $(target).ofset().top
     }, 'slow')
 })
-
