@@ -22,9 +22,9 @@ $(document).ready(function () {
     // owl carusel
     $('.owl-carousel').owlCarousel({
         loop: true,
-        smartSpeed: 2000,
+        smartSpeed: 1000,
         margin: 10,
-        nav: true,
+        nav: false,
         responsive: {
             0: {
                 items: 1
