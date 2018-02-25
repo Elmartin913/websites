@@ -881,7 +881,7 @@ form {
 }
 
 .quote img {
-    width: 150px;
+    width: 150px!important;
     margin: 0 auto;
     border-radius: 50%;
 

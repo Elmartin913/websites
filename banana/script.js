@@ -19,6 +19,24 @@ $(document).ready(function () {
     $("#p-bar-4").progressbar({
         value: 80
     });
+    // owl carusel
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        smartSpeed: 2000,
+        margin: 10,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    });
 });
 
 $(window).scroll(function () {
