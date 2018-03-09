@@ -101,25 +101,62 @@ img {
 .social a:hover {
     color: #d5d5d5;
 }
-#home{
+
+#home {
     padding-top: 60px;
 }
-#about{
+
+#about {
     padding: 70px 0;
     background-color: #1fb8eb;
 }
-#features{
+
+#features {
     padding: 70px 0 50px;
     background-color: #ff9800;
 }
-#portfolio{
+
+#portfolio {
     padding: 70px 0 50px;
     background-color: #00b2ca;
 }
-#connect{
+
+#connect {
     padding: 0 0 12%;
     background-color: #673ab7;
 }
-.row{
+
+.row {
     margin: 0;
 }
+
+@media (max-width:768px) {
+    h1 {
+        font-size: 170%;
+    }
+    h2 {
+        font-size: 160%;
+    }
+    h3 {
+        font-size: 120%;
+        max-width: 90%;
+    }
+    p {
+        padding-top: 3%;
+        font-size: 100%;
+    }
+    img#code {
+        max-width: 160px;
+    }
+    .col-sm-4 #icon {
+        max-width: 110px;
+    }
+    .col-md-4 #icon {
+        max-width: 110px;
+    }
+    .social {
+        font-size: 200%;
+    }
+}
+
+%
