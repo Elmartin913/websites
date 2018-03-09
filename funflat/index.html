@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Fun Flat Website</title>
     <meta charset="utf-8">
@@ -11,37 +12,43 @@
     <script src="scrolling.js"></script>
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript">
-         $(document).on('click','.navbar-collapse.in',function(e) {
-        if( $(e.target).is('a') && ( $(e.target).attr('class') != 'dropdown-toggle' ) ) {
-            $(this).collapse('hide');
-        }
+        $(document).on('click', '.navbar-collapse.in', function(e) {
+            if ($(e.target).is('a') && ($(e.target).attr('class') != 'dropdown-toggle')) {
+                $(this).collapse('hide');
+            }
         });
+
     </script>
 </head>
+
 <body>
-<header>
-   <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-         <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#myNavbar">
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#myNavbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="#" class="navbar-brand"><img src="img/logo2.png" alt="logo"></a>
-         </div> <!--end of header -->
-         <div class="collapse navbar-collapse" id="myNavbar">
-             <ul class="nav navbar-nav navbar-right">
-                 <li><a href="#home">Home</a></li>
-                 <li><a href="#about">About</a></li>
-                 <li><a href="#features">Features</a></li>
-                 <li><a href="#portfolio">Portfolio</a></li>
-                 <li><a href="#connect">Connect</a></li>
-             </ul>
-         </div> <!-- end of navbar collapse -->
-      </div> <!-- end of container -->
-   </nav> <!--end nav -->
-</header>
+                    <a href="#" class="navbar-brand"><img src="img/logo2.png" alt="logo"></a>
+                </div>
+                <!--end of header -->
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#connect">Connect</a></li>
+                    </ul>
+                </div>
+                <!-- end of navbar collapse -->
+            </div>
+            <!-- end of container -->
+        </nav>
+        <!--end nav -->
+    </header>
     <div id="home">
         <img src="img/desktop.png" alt="" class="banner">
     </div>
@@ -56,13 +63,15 @@
             <div class="col-md-6">
                 <img src="img/code.png" alt="">
             </div>
-        </div><!-- end of row -->
+        </div>
+        <!-- end of row -->
         <br>
         <h3><i>"This is the best website course ever!" - J.Johnston</i></h3>
-    </div><!-- and of container -->
-    
+    </div>
+    <!-- and of container -->
+
     <img src="img/charts.png" alt="" class="banner">
-    
+
     <div id="features" class="container-fluid text-center">
         <h2>Get to know our Features</h2>
         <div class="row">
@@ -78,70 +87,58 @@
                 <img src="img/css3.png" alt="" id="icon">
                 <h3>CSS3</h3>
             </div>
-        </div>
-    </div> <!-- end of container -->
-    
+        </div><!-- end of row -->
+            <br><br>
+        <h3>Buil responsive, mobile-first projects on the web with the world's most popular front-end component liblary. Bootstrap ia an open source toolkit for developing with HTML, CSS, and JS.</h3>
+        
+    </div><!-- end of container -->
+
     <img src="img/people.png" alt="" class="banner">
-    
+
     <div id="portfolio" class="container-fluid text-center">
         <h2>Check out our Portfolio</h2>
         <br><br>
         <div class="row">
-           <div class="col-md-4">
-               <img src="img/icons/camera.png" alt="" id="icon">
-           </div>
             <div class="col-md-4">
-               <img src="img/icons/mic.png" alt="" id="icon">
-           </div>
+                <img src="img/icons/camera.png" alt="" id="icon">
+            </div>
             <div class="col-md-4">
-               <img src="img/icons/phone.png" alt="" id="icon">
-           </div>
-            <div class="col-md-4 hidden-sm">
-               <img src="img/icons/calendar.png" alt="" id="icon">
-           </div>
-            <div class="col-md-4 hidden-sm">
-               <img src="img/icons/tv.png" alt="" id="icon">
-           </div>
-            <div class="col-md-4 hidden-sm">
-               <img src="img/icons/clock.png" alt="" id="icon">
-           </div>
-        </div> <!-- end of row -->
-    </div> <!-- end of container -->
-    
+                <img src="img/icons/mic.png" alt="" id="icon">
+            </div>
+            <div class="col-md-4">
+                <img src="img/icons/phone.png" alt="" id="icon">
+            </div>
+            <div class="col-md-4 hidden-sm hidden-xs">
+                <img src="img/icons/calendar.png" alt="" id="icon">
+            </div>
+            <div class="col-md-4 hidden-sm hidden-xs">
+                <img src="img/icons/tv.png" alt="" id="icon">
+            </div>
+            <div class="col-md-4 hidden-sm hidden-xs">
+                <img src="img/icons/clock.png" alt="" id="icon">
+            </div>
+        </div>
+        <!-- end of row -->
+    </div>
+    <!-- end of container -->
+
     <img src="img/social.png" alt="" class="banner">
-    
+
     <footer id="connect" class="container-fluid text-center">
         <div class="row">
             <h2>Connect</h2>
             <div class="social">
-                <a href="#" target=_blank><i class="fa fa-facebook"></i></a>
-                <a href="#" target=_blank><i class="fa fa-twitter"></i></a>
-                <a href="#" target=_blank><i class="fa fa-instagram"></i></a>
-                <a href="#" target=_blank><i class="fa fa-youtube"></i></a>
+                <a href="#" target=_blank><i class="fab fa-facebook"></i></a>
+                <a href="#" target=_blank><i class="fab fa-twitter"></i></a>
+                <a href="#" target=_blank><i class="fab fa-instagram"></i></a>
+                <a href="#" target=_blank><i class="fab fa-youtube"></i></a>
             </div>
-        </div> <!-- end of row -->
-    </footer> <!-- end of footer -->
-    
+        </div>
+        <!-- end of row -->
+    </footer>
+    <!-- end of footer -->
+
 </body>
+
 </html>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="col-md-12 text-center" style="padding: 2%;"> 
-    <a href="http://goo.gl/Y2rJSj" target="_blank"><button id="singlebutton" name="singlebutton" class="btn-lg btn-success">Subscribe!</button></a> 
-</div>
