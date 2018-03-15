@@ -155,3 +155,51 @@ nav {
         padding: 0 100px;
     }
 }
+
+/* Title */
+
+.title {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+}
+
+.title-text {
+    text-transform: uppercase
+}
+
+.title-underline{
+    background: #984843;
+    width: 100px;
+    height: 4px;
+    margin: 10px auto;
+}
+
+.title-subheading {
+    padding: 5px;
+    text-transform: none;
+}
+
+/* Skills Section */
+
+.skill-center {
+    max-width: 90vw;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.skill {
+    margin: 40px 0;
+    text-align: center;
+    width: 
+}
+
+
+.skill h3{
+    text-transform: uppercase;
+    margin: 15px 0;
+    
+}
+.skill p{
+    line-height: 1.5;
+}
