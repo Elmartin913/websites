@@ -1,0 +1,82 @@
+/*
+navy blue #18121e
+gunmetal #233237
+rusty red #984843
+warm yellow #eac67a
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #eac67a;
+    font-family: 'Mukta Mahee', sans-serif;
+}
+
+#nav ul{
+    list-style-type: none;
+    display: none;
+}
+#nav ul li a{
+    text-decoration: none;
+    display: block;
+    color: #eac67a;
+    background: #18121e;
+    padding: 10px;
+    font-size: 20px;
+    transition: color 1s ease, background 2s ease;
+}
+#nav ul li a:hover{
+    color: #18121e;
+    background-color: #eac67a;
+}
+.nav-container{
+    padding: 0 20px;
+    background: #18121e;
+    border-bottom: 3px solid #eac67a;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-container img{
+    width: 120px;
+    align-self: center;
+}
+.menu-btn{
+    padding: 2px;
+    display: inline-block;
+    border: 2px solid #eac67a;
+    border-radius: 10px;
+    align-self: center;
+}
+.nav-container .bar {
+    width: 20px;
+    height: 2px;
+    margin: 5px;
+    color: #f5f5f5;
+}
+header{
+    min-height: 100vh;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    
+}
+nav{
+    flex: 0 0 auto;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+#banner{
+    background: linear-gradient(rgba(255,255,255,0.21), rgba(255,255,255,0.21)), url(img/banner.jpeg) center/cover no-repeat fixed;
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.banner-text{
+    
+}
