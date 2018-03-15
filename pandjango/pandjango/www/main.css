@@ -56,6 +56,7 @@ body {
     border: 2px solid #eac67a;
     border-radius: 10px;
     align-self: center;
+    background-color: none;
 }
 
 nav .bar {
@@ -162,10 +163,11 @@ nav {
     display: flex;
     padding: 20px;
     text-align: center;
+    justify-content: center;
 }
 
 .title-text {
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 .title-underline{
@@ -188,18 +190,135 @@ nav {
     padding: 20px 0;
 }
 
+
 .skill {
     margin: 40px 0;
     text-align: center;
-    width: 
+    transition: transform 2s ease-in, 
 }
 
+.skill:hover{
+    transform: scale(1.05);
+}
+
+.fa-3x{
+    font-size: 3em!important;
+    color: #984843;
+    
+}
 
 .skill h3{
     text-transform: uppercase;
     margin: 15px 0;
+    color: #984843;
     
 }
+
 .skill p{
     line-height: 1.5;
 }
+
+/* Responsive */
+@media screen and (min-width: 576px){
+    .skill-center{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .skill{
+        flex: 0 0 calc(50% - 1em);
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .skill{
+        flex: 0 0 calc(33% - 1em);
+    }
+}
+
+
+/* About Section */
+
+.about-box{
+    text-align: center;
+    padding: 20px;
+}
+
+.about-box img{
+    width: 150px;
+    padding-bottom: 20px;
+}
+
+span{
+    color: #984843;
+}
+
+.about-box ul {
+    list-style-type: none;
+}
+.about-box ul li{
+    display: inline-block;
+}
+
+
+.fa-2x{
+    font-size: 2em!important;
+    padding: 10px 5px;
+    color: #984843;
+    transition: transform 1s ease;
+}
+.fa-2x:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (min-width:576px){
+    .about-center{
+        display: flex;
+        justify-content:center;
+        flex-wrap: wrap;
+    }
+    .about-box{
+        flex: 0 0 calc(50% - 2em);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
