@@ -283,12 +283,64 @@ span{
     }
 }
 
+/* Portfoli Section */
+
+.project-box {
+    margin: 20px 0;
+    background: #959595;
+}
+.project-box img{
+    display: block;
+    width: 100%;
+    max-height: 200px;
+}
+.img-footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: #984843;
+}
+.footer-info h3{
+    color: #eac67a;
+}
+.footer-info h5{
+    color: #eac67a;
+    margin: 10px 0;
+}
+.footer-info .fa-2x{
+    color: #eac67a;
+    font-size: 1.5em!important;
+    margin: 0 5px;
+}
+/* Portfolio Responsive */
+@media screen and (min-width:576px){
+    .project-center{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        min-width: 90vw;
+        margin: 0 auto;
+    }
+    .project-box{
+        flex: 0 0 calc(50% - 10px);
+    }
+}
+@media screen and (min-width:772px){
+    .project-box{
+        flex: 0 0 calc(25% - 10px);
+    }
+}
 
 
+/* Proposal Section */
 
-
-
-
+.proposal{
+    background: url(img/banner.jpeg) center/cover no-repeat fixed;
+    padding: 75px 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
 
 
 
