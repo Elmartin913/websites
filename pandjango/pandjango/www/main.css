@@ -285,6 +285,10 @@ span{
 
 /* Portfoli Section */
 
+#projects {
+    padding: 20px;
+}
+
 .project-box {
     margin: 20px 0;
     background: #959595;
@@ -342,6 +346,38 @@ span{
     justify-content: center;
 }
 
+/* Footer Section */
+
+.footer-center{
+    background: #18121e;
+}
+
+.footer-box{
+    padding: 40px;
+    display: block;
+    text-align: center;
+}
+.footer-box img{
+    width: 200px;
+    padding: 10px;
+}
+.footer-box ul{
+    list-style-type: none;
+}
+.footer-box ul li{
+    display:inline-block;
+    margin: 0 10px;
+    
+}
+#second-footer{
+    background: #18121e;
+    border-top: 1px solid #233237;
+}
+#second-footer p{
+    background: #18121e;
+    color: #233237;
+    text-align: center;
+}
 
 
 
