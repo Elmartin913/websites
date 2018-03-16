@@ -1,9 +1,4 @@
-$(document).ready(function(){
-    $('.menu-btn').click(function(){
-        $('nav ul').slideToggle(500);
-    })
-    /* Taping Animation */
-    var TxtType = function(el, toRotate, period) {
+var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
         this.loopNum = 0;
@@ -59,4 +54,3 @@ $(document).ready(function(){
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
         document.body.appendChild(css);
     };
-})
