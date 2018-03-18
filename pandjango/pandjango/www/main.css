@@ -21,6 +21,7 @@ stark #e7dfdd
 body {
     background: #e7dfdd;
     font-family: 'Mukta Mahee', sans-serif;
+    color: #0e0b16;
 }
 
 /* Header Section */
@@ -71,7 +72,7 @@ nav .bar {
     width: 20px;
     height: 2px;
     margin: 5px;
-    color: #f5f5f5;
+    color: #e7dfdd;
 }
 
 header {
@@ -90,7 +91,7 @@ nav {
 }
 
 #banner {
-    background: linear-gradient(rgba(255, 255, 255, 0.21), rgba(255, 255, 255, 0.21)), url(img/banner.jpeg) center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.2)), url(img/banner6.jpeg) center/cover no-repeat fixed;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
     display: flex;
     flex: 1 0 auto;
@@ -101,8 +102,8 @@ nav {
 
 
 .banner-text h1 {
-    font-size: 50px;
-    color: #0e0b16;
+    font-size: 40px;
+    color: #e7dfdd;
     font-style: italic;
 }
 
@@ -119,18 +120,18 @@ nav {
     font-size: 25px;
     margin: 10px;
     padding: 5px 12px;
-    color: #0e0b16;
+    color: #e7dfdd;
     font-style: italic;
     border: 3px solid #0e0b16;
     border-radius: 25px;
-    background: #e7dfdd;
+    background: #a239ca;
     transition: color 1s ease, background 1s ease, border 1s ease;
 }
 
 .banner-text a:hover {
     color: #e7dfdd;
-    background: #0e0b16;
-    border: 3px solid #e7dfdd;
+    background: #4717f6;
+    border: 3px solid #0e0b16;
 }
 
 /* Typing Animation */
@@ -140,11 +141,13 @@ nav {
     border-radius: none;
     background: none;
 }
-.banner-text h1#type-text span{ 
-    color: #fff;
+
+.banner-text h1#type-text span {
+    color: #e7dfdd;
     font-size: 40px;
 }
-.banner-text h1#type-text a.disabled{ 
+
+.banner-text h1#type-text a.disabled {
     pointer-events: none;
 }
 
@@ -195,8 +198,8 @@ nav {
     text-transform: uppercase;
 }
 
-.title-underline{
-    background: #4717f6;
+.title-underline {
+    background: #a239ca;
     width: 100px;
     height: 4px;
     margin: 10px auto;
@@ -219,45 +222,46 @@ nav {
 .skill {
     margin: 40px 0;
     text-align: center;
-    transition: transform 2s ease-in, 
+    transition: transform 2s ease-in,
 }
 
-.skill:hover{
+.skill:hover {
     transform: scale(1.05);
 }
 
-.fa-3x{
+.fa-3x {
     font-size: 3em!important;
     color: #4717f6;
-    
+
 }
 
-.skill h3{
+.skill h3 {
     text-transform: uppercase;
     margin: 15px 0;
     color: #4717f6;
-    
+
 }
 
-.skill p{
+.skill p {
     line-height: 1.5;
 }
 
 /* Responsive */
-@media screen and (min-width: 576px){
-    .skill-center{
+
+@media screen and (min-width: 576px) {
+    .skill-center {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
     }
-    .skill{
+    .skill {
         flex: 0 0 calc(50% - 1em);
         text-align: center;
     }
 }
 
-@media screen and (min-width: 992px){
-    .skill{
+@media screen and (min-width: 992px) {
+    .skill {
         flex: 0 0 calc(33% - 1em);
     }
 }
@@ -265,49 +269,57 @@ nav {
 
 /* About Section */
 
-#about{
-    background: url(img/banner.jpeg) center/cover no-repeat fixed;
+#about {
+    background: linear-gradient(rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.2)), url(img/banner4.jpeg) center/cover no-repeat fixed;
     clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
 }
-.about-box{
+
+#about .title-text {
+    padding: 70px 0 0 0;
+}
+
+.about-box {
     text-align: center;
     padding: 20px;
 }
 
-.about-box img{
-    width: 150px;
+.about-box img {
+    width: 120px;
     padding-bottom: 20px;
 }
 
-span{
-    color: #4717f6;
+span {
+    color: #a239ca;
 }
 
 .about-box ul {
     list-style-type: none;
+    padding: 0 0 30px 0;
 }
-.about-box ul li{
+
+.about-box ul li {
     display: inline-block;
 }
 
 
-.fa-2x{
+.fa-2x {
     font-size: 2em!important;
     padding: 10px 5px;
     color: #4717f6;
     transition: transform 1s ease;
 }
-.fa-2x:hover{
+
+.fa-2x:hover {
     transform: scale(1.1);
 }
 
-@media screen and (min-width:576px){
-    .about-center{
+@media screen and (min-width:576px) {
+    .about-center {
         display: flex;
-        justify-content:center;
+        justify-content: center;
         flex-wrap: wrap;
     }
-    .about-box{
+    .about-box {
         flex: 0 0 calc(50% - 2em);
     }
 }
@@ -322,44 +334,52 @@ span{
     margin: 20px 0;
     background: #959595;
 }
-.project-box img{
+
+.project-box img {
     display: block;
     width: 100%;
     max-height: 200px;
 }
+
 .img-footer {
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    background: #4717f6;
+    background: #0e0b16;
 }
-.footer-info h3{
+
+.footer-info h3 {
     color: #e7dfdd;
 }
-.footer-info h5{
+
+.footer-info h5 {
     color: #e7dfdd;
     margin: 10px 0;
 }
-.footer-info .fa-2x{
+
+.footer-info .fa-2x {
     color: #e7dfdd;
     font-size: 1.5em!important;
     margin: 0 5px;
 }
+
 /* Portfolio Responsive */
-@media screen and (min-width:576px){
-    .project-center{
+
+@media screen and (min-width:576px) {
+    .project-center {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
         min-width: 90vw;
         margin: 0 auto;
     }
-    .project-box{
+    .project-box {
         flex: 0 0 calc(50% - 10px);
     }
 }
-@media screen and (min-width:772px){
-    .project-box{
+
+@media screen and (min-width:772px) {
+    .project-box {
         flex: 0 0 calc(25% - 10px);
     }
 }
@@ -367,8 +387,8 @@ span{
 
 /* Proposal Section */
 
-.proposal{
-    background: url(img/banner.jpeg) center/cover no-repeat fixed;
+.proposal {
+    background: linear-gradient(rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.2)), url(img/keyboard1.jpeg) center/cover no-repeat fixed;
     clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
     padding: 75px 0;
     display: flex;
@@ -378,65 +398,45 @@ span{
 
 /* Footer Section */
 
-.footer-center{
+.footer-center {
     background: #0e0b16;
 }
 
-.footer-box{
+.footer-box {
     padding: 40px;
     display: block;
     text-align: center;
 }
-.footer-box img{
+
+.footer-box img {
     width: 200px;
     padding: 10px;
 }
-.footer-box ul{
+
+.footer-box ul {
     list-style-type: none;
 }
-.footer-box ul li{
-    display:inline-block;
+
+.footer-box ul li {
+    display: inline-block;
     margin: 0 10px;
-    
+
 }
-#second-footer{
+
+#second-footer {
     background: #0e0b16;
-    border-top: 1px solid #a239ca;
+    border-top: 1px solid #4717f6;
 }
-#second-footer p{
+
+#second-footer p {
     background: #0e0b16;
-    color: #a239ca;
+    color: #4717f6;
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#about .title-heading,
+#about p,
+#proposals .title-heading,
+#proposals .title-subheading {
+    color: #e7dfdd;
+}
