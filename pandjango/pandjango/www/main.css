@@ -1,8 +1,16 @@
 /*
-navy blue #18121e
-gunmetal #233237
-rusty red #984843
-warm yellow #eac67a
+navy blue #18121+e
+gunmetal #23323+7
+rusty red #98484+3
+warm yellow #eac67+a
+*/
+
+/* colors 2
+void #0e0b16
+fuschia #a239ca
+jewel #4717f6
+stark #e7dfdd
+
 */
 
 * {
@@ -11,7 +19,7 @@ warm yellow #eac67a
 }
 
 body {
-    background: #eac67a;
+    background: #e7dfdd;
     font-family: 'Mukta Mahee', sans-serif;
 }
 
@@ -25,23 +33,23 @@ body {
 #nav ul li a {
     text-decoration: none;
     display: block;
-    color: #eac67a;
-    background: #18121e;
+    color: #e7dfdd;
+    background: #0e0b16;
     padding: 10px;
     font-size: 20px;
     transition: color 1s ease, background 2s ease;
 }
 
 #nav ul li a:hover {
-    color: #18121e;
-    background-color: #eac67a;
+    color: #0e0b16;
+    background-color: #e7dfdd;
 }
 
 .nav-container {
     padding: 0 20px;
     height: 50px;
-    background: #18121e;
-    border-bottom: 3px solid #eac67a;
+    background: #0e0b16;
+    border-bottom: 3px solid #e7dfdd;
     display: flex;
     justify-content: space-between;
 }
@@ -53,7 +61,7 @@ body {
 .menu-btn {
     padding: 2px;
     display: inline-block;
-    border: 2px solid #eac67a;
+    border: 2px solid #e7dfdd;
     border-radius: 10px;
     align-self: center;
     background-color: none;
@@ -94,13 +102,13 @@ nav {
 
 .banner-text h1 {
     font-size: 50px;
-    color: #18121e;
+    color: #0e0b16;
     font-style: italic;
 }
 
 .banner-text h4 {
     font-size: 20px;
-    color: #18121e;
+    color: #0e0b16;
     font-style: italic;
 }
 
@@ -111,18 +119,18 @@ nav {
     font-size: 25px;
     margin: 10px;
     padding: 5px 12px;
-    color: #18121e;
+    color: #0e0b16;
     font-style: italic;
-    border: 3px solid #18121e;
+    border: 3px solid #0e0b16;
     border-radius: 25px;
-    background: #eac67a;
+    background: #e7dfdd;
     transition: color 1s ease, background 1s ease, border 1s ease;
 }
 
 .banner-text a:hover {
-    color: #eac67a;
-    background: #18121e;
-    border: 3px solid #eac67a;
+    color: #e7dfdd;
+    background: #0e0b16;
+    border: 3px solid #e7dfdd;
 }
 
 /* Typing Animation */
@@ -145,8 +153,8 @@ nav {
 @media screen and (min-width:776px) {
     #nav {
         display: flex;
-        background: #18121e;
-        border-bottom: 3px solid #eac67a;
+        background: #0e0b16;
+        border-bottom: 3px solid #e7dfdd;
     }
     #nav ul {
         display: flex!important;
@@ -163,8 +171,8 @@ nav {
         border-bottom: none;
     }
     #nav ul li a:hover {
-        color: #eac67a;
-        background-color: #233237;
+        color: #e7dfdd;
+        background-color: #a239ca;
     }
     #banner {
         justify-content: flex-start;
@@ -188,7 +196,7 @@ nav {
 }
 
 .title-underline{
-    background: #984843;
+    background: #4717f6;
     width: 100px;
     height: 4px;
     margin: 10px auto;
@@ -220,14 +228,14 @@ nav {
 
 .fa-3x{
     font-size: 3em!important;
-    color: #984843;
+    color: #4717f6;
     
 }
 
 .skill h3{
     text-transform: uppercase;
     margin: 15px 0;
-    color: #984843;
+    color: #4717f6;
     
 }
 
@@ -272,7 +280,7 @@ nav {
 }
 
 span{
-    color: #984843;
+    color: #4717f6;
 }
 
 .about-box ul {
@@ -286,7 +294,7 @@ span{
 .fa-2x{
     font-size: 2em!important;
     padding: 10px 5px;
-    color: #984843;
+    color: #4717f6;
     transition: transform 1s ease;
 }
 .fa-2x:hover{
@@ -323,17 +331,17 @@ span{
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    background: #984843;
+    background: #4717f6;
 }
 .footer-info h3{
-    color: #eac67a;
+    color: #e7dfdd;
 }
 .footer-info h5{
-    color: #eac67a;
+    color: #e7dfdd;
     margin: 10px 0;
 }
 .footer-info .fa-2x{
-    color: #eac67a;
+    color: #e7dfdd;
     font-size: 1.5em!important;
     margin: 0 5px;
 }
@@ -371,7 +379,7 @@ span{
 /* Footer Section */
 
 .footer-center{
-    background: #18121e;
+    background: #0e0b16;
 }
 
 .footer-box{
@@ -392,12 +400,12 @@ span{
     
 }
 #second-footer{
-    background: #18121e;
-    border-top: 1px solid #233237;
+    background: #0e0b16;
+    border-top: 1px solid #a239ca;
 }
 #second-footer p{
-    background: #18121e;
-    color: #233237;
+    background: #0e0b16;
+    color: #a239ca;
     text-align: center;
 }
 
