@@ -9,7 +9,6 @@ stark #e7dfdd
 
 .row.content {
     height: 100vh;
-    width: 75%;
 }
     
 .sidenav {
@@ -17,7 +16,7 @@ stark #e7dfdd
     height: 100%;
 }
         
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 576px) {
     .row.content {
         height: auto;
     } 
