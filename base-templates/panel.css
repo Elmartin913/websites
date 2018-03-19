@@ -1,0 +1,24 @@
+/*
+void #0e0b16
+fuschia #a239ca
+jewel #4717f6
+stark #e7dfdd
+*/
+
+
+.row.content {
+    height: 550px;
+}
+    
+
+.sidenav {
+    background-color: #f1f1f1;
+    height: 100%;
+}
+        
+
+@media screen and (max-width: 767px) {
+    .row.content {
+        height: auto;
+    } 
+}

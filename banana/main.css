@@ -98,7 +98,7 @@ body {
 
 header {
     min-height: 100vh;
-    direction: flex;
+    display: flex;
     flex: 1 0 auto;
     flex-direction: column;
 }
@@ -121,7 +121,7 @@ header {
     text-transform: uppercase;
     color: #ffc914;
     font-size: 60px;
-    font-size: italic;
+    font-style: italic;
     text-decoration: underline;
 }
 
@@ -287,7 +287,7 @@ header {
     }
 }
 
-/* grid 
+/* grid
 
 @media screen and (min-width:576px) {
     .skills-center {
@@ -602,7 +602,7 @@ form {
     }
 }
 
-/*grid 
+/*grid
 @media screen and (min-width:576px){
     #numbers{
         display: grid;
