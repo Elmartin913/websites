@@ -6,19 +6,28 @@ stark #e7dfdd
 */
 
 
+
 .row.content {
     height: 550px;
 }
     
-
 .sidenav {
     background-color: #f1f1f1;
     height: 100%;
 }
         
-
 @media screen and (max-width: 767px) {
     .row.content {
         height: auto;
     } 
+}
+
+.navbar,
+.sidenav{
+    background: #0e0b16;
+}
+.dev-panel li{
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
 }
