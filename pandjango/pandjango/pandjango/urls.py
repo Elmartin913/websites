@@ -16,9 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from website.views import LPView
+from website.views import StartView
 
 urlpatterns = [
-    path(r'admin/', admin.site.urls),
-    path('', LPView.as_view(), name='landing_page'),
+    path('admin/', admin.site.urls),
+    path('', StartView.as_view(), name='index'),
 ]
