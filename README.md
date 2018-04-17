@@ -2,6 +2,7 @@ Websites to zbiór opracowanych przeze mnie stron internetowych.
 Nacisk kładłem na responsywność oraz dodatkowe funkjonalności.
 
 Technologie:
+
 HTML/CSS/Bootstrap
 Dodatki JS/JQuery
 -font awsome (ikonki)
@@ -14,7 +15,6 @@ Dodatki JS/JQuery
 
 Banana
 Strona firmowa agencji medialnej
-
 -Dodatki js/jquery
 --font awsome (ikonki)
 --magnifc popup (prezentacja grafi na stronie)
@@ -25,21 +25,18 @@ Strona firmowa agencji medialnej
 
 Agency
 Strona agancji internetowej
-
 -Dodatki js/jquery
 --font awsome (ikonki)
 
 
 Fast
 Strona firmy samochodowej
-
 -Dodatki js/jquery
 --font awsome (ikonki)
 
 
 FunFlat
 Strona freelancera
-
 -Dodatki js/jquery
 --scrolling (płynne przewijanie strony)
 
